@@ -59,6 +59,7 @@ describe("index.js", () => {
       expect(throwFrisbee).to.exist
 
       const executedMessages = exerciseDog("Esther", "Dalmation")
+      //console.log("results:", executedMessages)
 
       const successMessages = [ 'Wake Esther the Dalmation',
         'Leash Esther the Dalmation',
